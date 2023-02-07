@@ -66,7 +66,7 @@ h3{
     display: flex;
     flex-flow: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 .d-col-flex{
     display: flex;
@@ -221,21 +221,23 @@ padding-top: 100px;
 /*footer*/
  .ft-bg{
     background-color: var(--bg-dark);
-    min-height: 400px;
  }
  .ita-flag{
     width: 25px;
  }
- .text-footer, .link-ft{
-    padding: 5px 10px 5px 10px;
-
+ 
+ .t-footer{
+    font-size: 1rem;
  }
- .text-footer{
+ .text-footer, .t-footer, .ita-flag, h3{
     color: var(--bg-btn);
+    
  }
  .link-ft{
     color: var(--bg-white);
+    font-size: 0.8rem;
  }
+
  .p-60{
     padding-top: 60px;
 }
