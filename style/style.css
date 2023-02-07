@@ -55,6 +55,7 @@ h3{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: flex-start;
+    padding: 0px 25px;
 }
 .d-start{
     display: flex;
@@ -237,13 +238,23 @@ padding-top: 100px;
     color: var(--bg-white);
     font-size: 0.8rem;
  }
-
+.btn-f{
+    background-color: #7289da;
+}
  .p-60{
     padding-top: 60px;
 }
 .p-25{
     padding-top: 25px;
 }
+.p-bot-60{
+    padding-bottom: 60px;
+}
+.line-top{
+    border-top: 1px solid var(--bg-grey);
+    
+}
+
 /*footer*/
 
 
