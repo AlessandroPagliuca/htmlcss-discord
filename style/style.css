@@ -35,6 +35,9 @@ h1{
 h2{
     font-size: 3rem;
 }
+h3{
+    font-size: 2rem;
+}
 /* /General */
 
 /* Utility */
@@ -53,6 +56,12 @@ h2{
     justify-content: space-between;
     align-items: center;
 }
+.d-col-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .btn-bg-white{
     background-color: var(--bg-white);
     color: var(--color-text);
@@ -67,9 +76,10 @@ h2{
 .btn-size{
     border-radius: 14px;
     font-size: 1rem;
-    padding:  5px 10px 5px 10px;  
-    
-    
+    padding:  5px 10px 5px 10px;
+}
+.text-center{
+    text-align: center;
 }
 /* /Utility */
 
@@ -157,6 +167,43 @@ h2{
 .reverse{
     flex-direction: row-reverse;
 }
+
+/* Start wave setting*/
+.wave{
+    transform: rotate(180deg);
+}
+.color-wave{
+    opacity:0.04;
+    display: flex;
+    
+}
+/* /wave setting*/
+.m-top{
+    margin-top: 80px;
+}
+.bg-s-grey{
+    background-color: var(--bg-grey);
+}
+.p-100{
+padding-top: 100px;
+}
+.bg-img-star{
+    
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.p-30-40-0-40{
+    padding: 30px 40px 0px 40px;
+    text-align: center;
+}
+.m-bot{
+    margin-bottom: 100px;
+}
+.btn-download-windows{
+    background-color: #7289da;
+}
+
 /* /main */
 
 /*footer*/
