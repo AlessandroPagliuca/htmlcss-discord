@@ -12,7 +12,9 @@
     --color-text: #000000;
     --bg-white: #ffffff;
     --bg-grey: #f5f5f5;
-    --bg-btn: #7289da;
+    --bg-btn: #5865f2;
+    --btn-d-hover: #36393f;
+    --btn-v-hover: #7983f5;
 }  
 body{
     background-color: var(--bg-white);
@@ -83,6 +85,18 @@ h3{
 .btn-color-white{
     color: var(--bg-white);
 }
+/* selector :hover*/
+.btn-w:hover{
+    color: var(--bg-btn);
+}
+.btn-d:hover{
+    background-color:var(--btn-d-hover) ;
+}
+.btn-v:hover{
+    background-color: var(--btn-v-hover);
+}
+/* /selector :hover*/
+
 .btn-color-dark{
     color: var(--color-text);
 }
