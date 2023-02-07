@@ -54,6 +54,18 @@ h3{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: flex-start;
+}
+.d-start{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.d-around{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
     align-items: center;
 }
 .d-col-flex{
@@ -209,6 +221,10 @@ padding-top: 100px;
 /*footer*/
  .ft-bg{
     background-color: var(--bg-dark);
+    min-height: 400px;
+ }
+ .ita-flag{
+    width: 25px;
  }
 /*footer*/
 
