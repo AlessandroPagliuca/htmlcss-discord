@@ -226,6 +226,22 @@ padding-top: 100px;
  .ita-flag{
     width: 25px;
  }
+ .text-footer, .link-ft{
+    padding: 5px 10px 5px 10px;
+
+ }
+ .text-footer{
+    color: var(--bg-btn);
+ }
+ .link-ft{
+    color: var(--bg-white);
+ }
+ .p-60{
+    padding-top: 60px;
+}
+.p-25{
+    padding-top: 25px;
+}
 /*footer*/
 
 
